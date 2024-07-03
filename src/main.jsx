@@ -123,13 +123,13 @@ const Root = () => (
       <Sidebar />
       <div className="main-content">
         <Routes>
-          <Route path="/" element={<App />}>
+          <Route path="/saffi-ullah-protfolio/" element={<App />}>
             <Route index element={<><Navbar /><About /></>} />
-            <Route path="Portfolio" element={<><Navbar /><Portfolio /></>} />
-            <Route path="Blog" element={<><Navbar /><Blog /></>} />
-            <Route path="Contact" element={<><Navbar /><Contact /></>} />
-            <Route path="Resume" element={<><Navbar /><Resume /></>} />
-            <Route path="article/search-bar-react" element={<><Navbar /><SearchBar /></>} />
+            <Route path="/saffi-ullah-protfolio/Portfolio" element={<><Navbar /><Portfolio /></>} />
+            <Route path="/saffi-ullah-protfolio/Blog" element={<><Navbar /><Blog /></>} />
+            <Route path="/saffi-ullah-protfolio/Contact" element={<><Navbar /><Contact /></>} />
+            <Route path="/saffi-ullah-protfolio/Resume" element={<><Navbar /><Resume /></>} />
+            <Route path="/saffi-ullah-protfolio/article/search-bar-react" element={<><Navbar /><SearchBar /></>} />
           </Route>
         </Routes>
       </div>
