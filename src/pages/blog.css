@@ -1,0 +1,105 @@
+.sidebar,
+article {
+  background: var(--eerie-black-2);
+  border: 1px solid var(--jet);
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: var(--shadow-1);
+  z-index: 1;
+}
+
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.article-item {
+  width: calc(33.333% - 20px);
+  padding: 20px;
+  position: relative;
+  background: var(--border-gradient-onyx);
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+  margin-bottom: 20px;
+  transition: 2s;
+}
+
+.article-item:hover {
+transform: scale(1.1);
+}
+
+.article-item::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+
+.article-item-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.article-item-content h2 {
+  margin: 10px 0;
+  font-size: 1.25em;
+  color: var(    --white-2);
+}
+
+.article-item-content p {
+  margin: 10px 0;
+  color: var(    --white-2);
+}
+
+.read-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: var(--vegas-gold);
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.service-item1 {
+  position: relative;
+  background: var(--border-gradient-onyx);
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-2);
+  z-index: 1;
+  margin-bottom: 20px; /* Add margin to separate service items */
+}
+
+.service-item1::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  background: var(--bg-gradient-jet);
+  border-radius: inherit;
+  z-index: -1;
+}
+
+/* Media Queries for responsiveness */
+
+@media (max-width: 1024px) {
+  .article-item {
+    width: calc(50% - 20px); /* Two items per row on tablets */
+  }
+  /* .service-item1 {
+    width: calc(50% - 20px); Two items per row on tablets */
+  /* } */
+}
+
+@media (max-width: 768px) {
+  .article-item {
+    width: calc(100% - 20px); /* One item per row on smaller devices */
+  }
+  .service-item1 {
+    width: calc(100% - 20px); /* One item per row on smaller devices */
+  }
+}
