@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './searchbar.css';
 import vid1 from '../assets/Screen Recording 2024-07-03 175612.mp4'
 

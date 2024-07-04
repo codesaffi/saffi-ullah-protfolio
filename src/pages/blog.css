@@ -15,7 +15,7 @@ article {
 }
 
 .article-item {
-  width: calc(33.333% - 20px);
+  /* width: calc(33.333% - 20px); */
   padding: 20px;
   position: relative;
   background: var(--border-gradient-onyx);
@@ -73,6 +73,10 @@ transform: scale(1.1);
   box-shadow: var(--shadow-2);
   z-index: 1;
   margin-bottom: 20px; /* Add margin to separate service items */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 10px;
+
 }
 
 .service-item1::before {
@@ -86,20 +90,23 @@ transform: scale(1.1);
 
 /* Media Queries for responsiveness */
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .article-item {
-    width: calc(50% - 20px); /* Two items per row on tablets */
-  }
+    /* width: calc(50% - 20px); Two items per row on tablets */
+  /* } */
   /* .service-item1 {
     width: calc(50% - 20px); Two items per row on tablets */
   /* } */
-}
+/* } */ 
 
 @media (max-width: 768px) {
-  .article-item {
-    width: calc(100% - 20px); /* One item per row on smaller devices */
-  }
   .service-item1 {
     width: calc(100% - 20px); /* One item per row on smaller devices */
+  }
+}
+
+@media (max-width: 500px) {
+  .service-item1{
+    grid-template-columns: repeat(1, 1fr);
   }
 }

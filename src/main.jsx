@@ -116,6 +116,7 @@ import Navbar from './pages/Navbar.jsx';
 import Resume from './pages/Resume.jsx';
 import Sidebar from './pages/Sidebar.jsx';
 import SearchBar from './pages/SearchBar.jsx';
+import Loadmore from './pages/Loadmore.jsx';
 
 const Root = () => (
   <Router>
@@ -130,6 +131,7 @@ const Root = () => (
             <Route path="/saffi-ullah-protfolio/Contact" element={<><Navbar /><Contact /></>} />
             <Route path="/saffi-ullah-protfolio/Resume" element={<><Navbar /><Resume /></>} />
             <Route path="/saffi-ullah-protfolio/article/search-bar-react" element={<><Navbar /><SearchBar /></>} />
+            <Route path="/saffi-ullah-protfolio/article/load-more-react" element={<><Navbar /><Loadmore /></>} />
           </Route>
         </Routes>
       </div>
