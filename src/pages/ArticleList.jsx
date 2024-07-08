@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './blog.css';
 import img44 from '../assets/sddefault.jpg';
+import img45 from '../assets/b1cd961e-d514-4fa9-acf8-230be28f90ac-cover.png'
 
 const ArticleList = () => {
   const articles = [
@@ -14,10 +15,17 @@ const ArticleList = () => {
     },
     {
       id: 2,
-      title: 'How to Make  Load More Function Using React',
+      title: 'How to Make Load More Function Using React',
       summary: 'Learn step-by-step how to create load more in React, complete and responsive',
       image: img44,
       link: '/saffi-ullah-protfolio/article/load-more-react'
+    },
+    {
+      id: 3,
+      title: 'How to Make dark/light mode Function Using React',
+      summary: 'Learn step-by-step how to create dark/light mode in React, complete and responsive',
+      image: img45,
+      link: "/saffi-ullah-protfolio/article/dark/light-mode"
     },
     // Add more articles here
   ];
