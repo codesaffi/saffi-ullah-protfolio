@@ -118,6 +118,7 @@ import Sidebar from './pages/Sidebar.jsx';
 import SearchBar from './pages/SearchBar.jsx';
 import Loadmore from './pages/Loadmore.jsx';
 import Darklightmode from './pages/Darklightmode.jsx';
+import Todolist from './pages/Todolist.jsx';
 
 const Root = () => (
   <Router>
@@ -134,6 +135,7 @@ const Root = () => (
             <Route path="/saffi-ullah-protfolio/article/search-bar-react" element={<><Navbar /> <SearchBar /></>} />
             <Route path="/saffi-ullah-protfolio/article/load-more-react" element={<><Navbar /> <Loadmore /></>} />
             <Route path="/saffi-ullah-protfolio/article/dark/light-mode" element={<><Navbar /> <Darklightmode /> </>} />
+            <Route path="/saffi-ullah-protfolio/article/to-do-list" element={<><Navbar /> <Todolist /> </>} />
           </Route>
         </Routes>
       </div>

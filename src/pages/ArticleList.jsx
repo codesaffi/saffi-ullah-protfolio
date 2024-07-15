@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './blog.css';
 import img44 from '../assets/sddefault.jpg';
 import img45 from '../assets/b1cd961e-d514-4fa9-acf8-230be28f90ac-cover.png'
+import img46 from '../assets/Screenshot 2024-07-15 232229.png'
 
 const ArticleList = () => {
   const articles = [
@@ -26,6 +27,13 @@ const ArticleList = () => {
       summary: 'Learn step-by-step how to create dark/light mode in React, complete and responsive',
       image: img45,
       link: "/saffi-ullah-protfolio/article/dark/light-mode"
+    }, 
+    {
+      id: 4,
+      title: 'How to Make to-do list Using React Redux',
+      summary: 'Learn step-by-step how to create to-do list in React Redux, complete and responsive',
+      image: img46,
+      link: "/saffi-ullah-protfolio/article/to-do-list"
     },
     // Add more articles here
   ];
