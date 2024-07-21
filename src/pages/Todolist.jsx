@@ -6,7 +6,7 @@ const Todolist = () => {
   return (
     <article className="article2">
   <header>
-    <h2 className="h2 article-title">Build a To-Do List with Redux Toolkit in React</h2>
+    <h2 className="h2 article-title">TO-DO LIST</h2>
   </header>
   <header className="article-header">
     <h1 className="article-title1">Creating a To-Do List in React Using Redux Toolkit</h1>
