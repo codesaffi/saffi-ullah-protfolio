@@ -147,10 +147,10 @@ Whether it's architecting a scalable backend, designing an engaging frontend, or
           </div>
 
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Photography</h4>
+            <h4 className="h4 service-item-title">database </h4>
 
             <p className="service-item-text">
-              I make high-quality photos of any category at a professional level.
+               can handle the database in a noSQL based service
             </p>
           </div>
 
