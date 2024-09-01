@@ -543,7 +543,17 @@ main {
   z-index: -1;
 }
 
-.service-icon-box { margin-bottom: 10px; }
+.service-icon-box { 
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .icon-service{
+  color: var(--orange-yellow-crayola);
+width: 2.5rem;
+height: 2.5rem;
+ }
 
 .service-icon-box img { margin: auto; }
 

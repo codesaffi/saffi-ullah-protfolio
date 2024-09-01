@@ -59,6 +59,18 @@ const Resume = () => {
 
         </li>
 
+        <li className="timeline-item">
+
+<h4 className="h4 timeline-item-title">self-learning</h4>
+
+<span>2024 — 2024</span>
+
+<p className="timeline-text">
+self studied the mern stack development with real world projects
+</p>
+
+</li>
+
       </ol>
 
     </section>
@@ -148,13 +160,49 @@ const Resume = () => {
 
 </li>
 
+<li className="skills-item">
+
+<p className="timeline-text">authentication</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">login/signup page</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">real-time chat app</p>
+
+</li>
+
 </ul>
 
 <ul>
 
 <li className="skills-item">
 
+<p className="timeline-text">social media app</p>
+
+</li>
+
+<li className="skills-item">
+
   <p className="timeline-text">Portfolio website</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">movie website</p>
+
+</li>
+
+<li className="skills-item">
+
+  <p className="timeline-text">e-commerce website</p>
 
 </li>
 
@@ -170,23 +218,11 @@ const Resume = () => {
 
 </li>
 
-<li className="skills-item">
 
-  <p className="timeline-text">e-commerce website</p>
 
-</li>
 
-<li className="skills-item">
 
-<p className="timeline-text">travel agency website</p>
 
-</li>
-
-<li className="skills-item">
-
-<p className="timeline-text">restaurant website</p>
-
-</li>
 
 </ul>
 
@@ -232,13 +268,13 @@ const Resume = () => {
 
   <li className="skills-item">
 
-<p className="timeline-text">jQuery, GSAP and d3js</p>
+<p className="timeline-text">nodejs and express js</p>
 
 </li>
 
 <li className="skills-item">
 
-<p className="timeline-text">AJAX</p>
+<p className="timeline-text">mongodb</p>
 
 </li>
 
@@ -255,21 +291,35 @@ const Resume = () => {
 
   <li className="skills-item">
 
+<p className="timeline-text">routing</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">data management</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">system architecture and structure </p>
+
+</li>
+
+  <li className="skills-item">
+
     <p className="timeline-text">Cross Browser Compatibility</p>
 
   </li>
 
   <li className="skills-item">
 
-  <p className="timeline-text">Accessibility Standards</p>
+  <p className="timeline-text">cors</p>
 
   </li>
 
-  <li className="skills-item">
 
-    <p className="timeline-text">Mobile-first Development</p>
-
-  </li>
 
   <li className="skills-item">
 
@@ -342,25 +392,12 @@ const Resume = () => {
         <li className="skills-item">
 
           <div className="title-wrapper">
-            <h5 className="h5">Web design</h5>
-            <data value="80">80%</data>
-          </div>
-
-          <div className="skill-progress-bg">
-            <div className="skill-progress-fill w80" ></div>
-          </div>
-
-        </li>
-
-        <li className="skills-item">
-
-          <div className="title-wrapper">
-            <h5 className="h5">Web development</h5>
+            <h5 className="h5">frontend</h5>
             <data value="100">100%</data>
           </div>
 
           <div className="skill-progress-bg">
-            <div className="skill-progress-fill w100"></div>
+            <div className="skill-progress-fill w100" ></div>
           </div>
 
         </li>
@@ -368,12 +405,12 @@ const Resume = () => {
         <li className="skills-item">
 
           <div className="title-wrapper">
-            <h5 className="h5">Branding</h5>
-            <data value="90">90%</data>
+            <h5 className="h5">backend</h5>
+            <data value="85">85%</data>
           </div>
 
           <div className="skill-progress-bg">
-            <div className="skill-progress-fill w90"></div>
+            <div className="skill-progress-fill w85"></div>
           </div>
 
         </li>
@@ -381,12 +418,25 @@ const Resume = () => {
         <li className="skills-item">
 
           <div className="title-wrapper">
-            <h5 className="h5">styling</h5>
-            <data value="50">50%</data>
+            <h5 className="h5">designs</h5>
+            <data value="80">80%</data>
           </div>
 
           <div className="skill-progress-bg">
-            <div className="skill-progress-fill w50" ></div>
+            <div className="skill-progress-fill w80"></div>
+          </div>
+
+        </li>
+
+        <li className="skills-item">
+
+          <div className="title-wrapper">
+            <h5 className="h5">database</h5>
+            <data value="100">100%</data>
+          </div>
+
+          <div className="skill-progress-bg">
+            <div className="skill-progress-fill w100" ></div>
           </div>
 
         </li>

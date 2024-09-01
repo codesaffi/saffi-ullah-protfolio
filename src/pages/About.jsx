@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXmark} from '@fortawesome/free-solid-svg-icons'
+import { faXmark, faDatabase} from '@fortawesome/free-solid-svg-icons'
 import image1 from '../assets/avatar-1.png'
 import image2 from '../assets/avatar-2.png'
 import image3 from '../assets/avatar-3.png'
@@ -15,6 +15,8 @@ import image11 from '../assets/R (1).png'
 import image12 from '../assets/IMG_3885.png'
 import image13 from '../assets/OH7Yxoy.png'
 import image14 from '../assets/R.png'
+import image15 from '../assets/download.png'
+import { faNode } from '@fortawesome/free-brands-svg-icons'
 
 
 
@@ -73,17 +75,14 @@ const About = () => {
 
     <section className="about-text">
       <p>
-        I'm creative web developer and UI/UX Designer from Lalamusa, Pakistan, working in web development.
-        I enjoy
-        turning complex problems into simple, beautiful and intuitive designs.
-      </p>
+Here's a bio that highlights your expertise as a MERN stack developer with a focus on both backend and frontend development, as well as database management:
 
-      <p>
-        My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-        Moreover, I
-        add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-        across your
-        message and identity in the most creative way. I created web design for few famous brand companies.
+I am a seasoned MERN stack developer from Lalamusa, Pakistan, with a strong command of both backend and frontend technologies. My expertise spans the entire web development process, from crafting intuitive user interfaces to building robust server-side logic and managing complex databases. I specialize in creating end-to-end web applications that are efficient, scalable, and secure.
+
+With a deep understanding of MongoDB, Express.js, React, and Node.js, I build full-stack solutions that meet modern web standards and business needs. My work is driven by a commitment to delivering high-performance applications that are not only visually appealing but also technically sound. I take pride in writing clean, maintainable code and implementing best practices across the development lifecycle.
+
+Whether it's architecting a scalable backend, designing an engaging frontend, or optimizing database queries, I bring a comprehensive skill set to every project. My goal is to contribute to innovative projects that make a real impact, and I am eager to collaborate with tech companies looking for a dedicated MERN stack developer to bring their ideas to life.
+
       </p>
     </section>
 
@@ -98,14 +97,14 @@ const About = () => {
         <li className="service-item">
 
           <div className="service-icon-box">
-            <img src={image5} alt="design icon" width="40"/>
+          <FontAwesomeIcon className='icon-service' icon={faNode} />
           </div>
 
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Web design</h4>
+            <h4 className="h4 service-item-title">backend</h4>
 
             <p className="service-item-text">
-              The most modern and high-quality design made at a professional level.
+            Building the most modern and high-quality web apps with Node.js at a professional level.
             </p>
           </div>
 
@@ -146,7 +145,7 @@ const About = () => {
         <li className="service-item">
 
           <div className="service-icon-box">
-            <img src={image8} alt="camera icon" width="40"/>
+            <FontAwesomeIcon className='icon-service' icon={faDatabase} />
           </div>
 
           <div className="service-content-box">
