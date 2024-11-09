@@ -10,7 +10,8 @@ import image21 from '../assets/433800436_18421977916015725_2399537827878237288_n
 import image22 from '../assets/430815918_773132618211775_2764906117747618135_n.jpg'
 import image23 from '../assets/403531577_2331201500398158_5908179178304786142_n.jpg'
 import image24 from '../assets/418771845_18406718254015725_8005164622772796732_n.jpg'
-import image24 from '../assets/streetnest.png'
+// import image25 from '../assets/streetnest.png'
+import image25 from '../assets/thestreetnest.png'
 
 const Portfolio = () => {
 
@@ -95,13 +96,21 @@ const Portfolio = () => {
         title: "Nuorbit"
      },
 
-     { 
-      id: 10, 
-      category: "application", 
-      img: image24, 
-      content: "Application",
-      title: "Thestreetnest"
-   },
+  //    { 
+  //     id: 10, 
+  //     category: "application", 
+  //     img: image24, 
+  //     content: "Application",
+  //     title: "Thestreetnest"
+  //  },
+
+  { 
+    id: 10, 
+    category: "application", 
+    img: image25, 
+    content: "Application",
+    title: "Thestreetnest"
+ },
 
     ];
   
