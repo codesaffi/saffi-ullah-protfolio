@@ -12,9 +12,6 @@ function App() {
      <Navbar />
 
       <Outlet />
-
-
-      
     
     </>
   )
