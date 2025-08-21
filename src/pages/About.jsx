@@ -68,7 +68,6 @@ const About = () => {
 
     <section className="about-text">
       <p>
-Here's a bio that highlights your expertise as a MERN stack developer with a focus on both backend and frontend development, as well as database management:
 
 I am a seasoned MERN stack developer from Lalamusa, Pakistan, with a strong command of both backend and frontend technologies. My expertise spans the entire web development process, from crafting intuitive user interfaces to building robust server-side logic and managing complex databases. I specialize in creating end-to-end web applications that are efficient, scalable, and secure.
 
