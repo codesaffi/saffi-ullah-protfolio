@@ -16,7 +16,7 @@ import image12 from "../assets/IMG_3885.png";
 import image13 from "../assets/OH7Yxoy.png";
 import image14 from "../assets/R.png";
 import image15 from "../assets/download.png";
-import { faNode } from "@fortawesome/free-brands-svg-icons";
+import { faNode, faReact } from "@fortawesome/free-brands-svg-icons";
 
 const testimonialsData = [
   // Add your testimonials data here, for example:
@@ -34,16 +34,23 @@ const testimonialsData = [
   },
   {
     avatarSrc: image3,
-    avatarAlt: "GRB builders",
-    title: "GRB builders",
+    avatarAlt: "imtz-phar",
+    title: "imtz-phar",
     text: "Saffi is an exceptional web developer who delivered a flawless website ahead of schedule. Their expertise, attention to detail, and clear communication made the entire process smooth and enjoyable.",
   },
   {
     avatarSrc: image4,
-    avatarAlt: "StellarShopper",
-    title: "StellarShopper",
+    avatarAlt: "streetnest",
+    title: "streetnest",
     text: "Saffi transformed our e-commerce site, TrendyTreasures, into a sleek and high-performing platform. Their expertise and prompt delivery exceeded our expectations! ",
   },
+    {
+    avatarSrc: image4,
+    avatarAlt: "streetnest",
+    title: "streetnest",
+    text: "Saffi transformed our e-commerce site, TrendyTreasures, into a sleek and high-performing platform. Their expertise and prompt delivery exceeded our expectations! ",
+  },
+  
 ];
 
 const About = () => {
@@ -84,6 +91,20 @@ Whether it's architecting a scalable backend, designing an engaging frontend, or
         <h3 className="h3 service-title">What i'm doing</h3>
 
         <ul className="service-list">
+
+          <li className="service-item">
+            <div className="service-icon-box">
+              <img src={image6} alt="Web development icon" width="40" />
+            </div>
+
+            <div className="service-content-box">
+              <h4 className="h4 service-item-title">full-stack development</h4>
+
+              <p className="service-item-text">
+Creating complete web solutions with the MERN stack — combining dynamic frontends and robust backends for end-to-end functionality.              </p>
+            </div>
+          </li>
+
           <li className="service-item">
             <div className="service-icon-box">
               <FontAwesomeIcon className="icon-service" icon={faNode} />
@@ -93,37 +114,21 @@ Whether it's architecting a scalable backend, designing an engaging frontend, or
               <h4 className="h4 service-item-title">backend</h4>
 
               <p className="service-item-text">
-                Building the most modern and high-quality web apps with Node.js
-                at a professional level.
+Building powerful, secure, and high-performance backends with Node.js to support modern and scalable web applications.
               </p>
             </div>
           </li>
 
           <li className="service-item">
             <div className="service-icon-box">
-              <img src={image6} alt="Web development icon" width="40" />
+              <FontAwesomeIcon className="icon-service" icon={faReact} />
             </div>
 
             <div className="service-content-box">
-              <h4 className="h4 service-item-title">Web development</h4>
+              <h4 className="h4 service-item-title">frontend</h4>
 
               <p className="service-item-text">
-                High-quality development of sites at the professional level.
-              </p>
-            </div>
-          </li>
-
-          <li className="service-item">
-            <div className="service-icon-box">
-              <img src={image7} alt="mobile app icon" width="40" />
-            </div>
-
-            <div className="service-content-box">
-              <h4 className="h4 service-item-title">Responsive Designs</h4>
-
-              <p className="service-item-text">
-                Professional development of websites for all devices.
-              </p>
+Transforming ideas into sleek, interactive, and responsive interfaces with React.js that deliver exceptional user experiences.              </p>
             </div>
           </li>
 
@@ -133,11 +138,10 @@ Whether it's architecting a scalable backend, designing an engaging frontend, or
             </div>
 
           <div className="service-content-box">
-            <h4 className="h4 service-item-title">Photography</h4>
+            <h4 className="h4 service-item-title">microservices</h4>
 
             <p className="service-item-text">
-              I make high-quality photos of any category at a professional level.
-            </p>
+Engineering scalable and resilient microservices with Docker, Kafka, and modern cloud tools to handle complex, distributed systems with ease.            </p>
           </div>
 
         </li>
