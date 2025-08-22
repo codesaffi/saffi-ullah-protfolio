@@ -49,24 +49,24 @@ const Resume = () => {
 
         <li className="timeline-item">
 
-          <h4 className="h4 timeline-item-title">EBIZCO School of programming</h4>
+          <h4 className="h4 timeline-item-title">FULL-STACK MERN DEVELOPMENT</h4>
 
           <span>2023 — 2024</span>
 
           <p className="timeline-text">
-          Have a master certificate in front-end development from EBIZCO School of programming.
+          Self studied the MERN stack development from different resources with real world projects.
           </p>
 
         </li>
 
         <li className="timeline-item">
 
-<h4 className="h4 timeline-item-title">self-learning</h4>
+<h4 className="h4 timeline-item-title">Bachelors in Computer Science</h4>
 
-<span>2024 — 2024</span>
+<span>2024 — ongoing</span>
 
 <p className="timeline-text">
-self studied the mern stack development with real world projects
+I am studying bachelors in computer science from University Of Chenab.
 </p>
 
 </li>
@@ -120,6 +120,68 @@ self studied the mern stack development with real world projects
 <h3 className="h3 skills-title">My Projects</h3>
 
 <ul className="skills-list-3 content-card">
+
+  <ul>
+
+        <li className="skills-item">
+  
+    <p  className="timeline-text">Automated Compliance Management
+    </p>
+
+  </li>
+
+    <li className="skills-item">
+  
+    <p  className="timeline-text">The-psychiatrsit game
+    </p>
+
+  </li>
+
+    <li className="skills-item">
+  
+    <p  className="timeline-text">The Streetnest
+    </p>
+
+  </li>
+
+<li className="skills-item">
+
+<p className="timeline-text">social media app</p>
+
+</li>
+
+<li className="skills-item">
+
+  <p className="timeline-text">Portfolio website</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">movie website</p>
+
+</li>
+
+<li className="skills-item">
+
+  <p className="timeline-text">e-commerce website</p>
+
+</li>
+
+<li className="skills-item">
+
+  <p className="timeline-text">Marketing agency website</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">Real Estate Website</p>
+
+</li>
+
+</ul>
+
 
 <ul>
 
@@ -180,51 +242,7 @@ self studied the mern stack development with real world projects
 
 </ul>
 
-<ul>
 
-<li className="skills-item">
-
-<p className="timeline-text">social media app</p>
-
-</li>
-
-<li className="skills-item">
-
-  <p className="timeline-text">Portfolio website</p>
-
-</li>
-
-<li className="skills-item">
-
-<p className="timeline-text">movie website</p>
-
-</li>
-
-<li className="skills-item">
-
-  <p className="timeline-text">e-commerce website</p>
-
-</li>
-
-<li className="skills-item">
-
-  <p className="timeline-text">Marketing agency website</p>
-
-</li>
-
-<li className="skills-item">
-
-<p className="timeline-text">Real Estate Website</p>
-
-</li>
-
-
-
-
-
-
-
-</ul>
 
 </ul>
 
@@ -275,6 +293,18 @@ self studied the mern stack development with real world projects
 <li className="skills-item">
 
 <p className="timeline-text">mongodb</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">kafa</p>
+
+</li>
+
+<li className="skills-item">
+
+<p className="timeline-text">docker</p>
 
 </li>
 

@@ -44,12 +44,6 @@ const testimonialsData = [
     title: "streetnest",
     text: "Saffi transformed our e-commerce site, TrendyTreasures, into a sleek and high-performing platform. Their expertise and prompt delivery exceeded our expectations! ",
   },
-    {
-    avatarSrc: image4,
-    avatarAlt: "streetnest",
-    title: "streetnest",
-    text: "Saffi transformed our e-commerce site, TrendyTreasures, into a sleek and high-performing platform. Their expertise and prompt delivery exceeded our expectations! ",
-  },
   
 ];
 
@@ -214,7 +208,7 @@ Engineering scalable and resilient microservices with Docker, Kafka, and modern 
                   <h4 className="h3 modal-title" data-modal-title>
                     {currentTestimonial.title}
                   </h4>
-                  <time dateTime="2021-06-14">14 June, 2021</time>
+                  <div style={{height: '4px', width: '100%', maxWidth: '470px', background: 'linear-gradient(90deg, #FFD700 20%, #fff 100%)', borderRadius: '2px', margin: '8px 0 12px 0'}}></div>
                   <div data-modal-text>
                     <p>{currentTestimonial.text}</p>
                   </div>
@@ -253,17 +247,20 @@ Engineering scalable and resilient microservices with Docker, Kafka, and modern 
             </a>
           </li>
 
-          <li className="clients-item">
-            <a href="#">
-              <img src={image13} alt="client logo" />
-            </a>
-          </li>
-
-          <li className="clients-item">
-            <a href="#">
-              <img src={image14} alt="client logo" />
-            </a>
-          </li>
+<li
+  className="clients-item"
+  style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '150px',
+    width: '100px',
+  }}
+>
+  <a href="#">
+    <img src={image14} alt="client logo" />
+  </a>
+</li>
         </ul>
       </section>
     </article>
